@@ -42,6 +42,7 @@ logging:
 api:
   url:
     inventory: localhost:8082
+    delivery: localhost:8083
 
 server:
   port: 8081
@@ -75,4 +76,5 @@ spring:
 api:
   url:
     inventory: inventory:8080
+    delivery: delivery:8080
 
