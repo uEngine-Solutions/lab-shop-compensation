@@ -1,9 +1,12 @@
 package labshopcompensation.common;
 
-import io.cucumber.spring.CucumberContextConfiguration;
+
 import labshopcompensation.OrderApplication;
+import io.cucumber.spring.CucumberContextConfiguration;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @CucumberContextConfiguration
 @SpringBootTest(classes = { OrderApplication.class })
-public class CucumberSpingConfiguration {}
+public class CucumberSpingConfiguration {
+    
+}
